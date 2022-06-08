@@ -9,36 +9,38 @@
     <link rel="stylesheet" href="reset.css" />
   </head>
   <body>
+    <header class="header">Calculator</header>
     <section>
       <div class="container">
         <div id="display">
-          <div class="button">%</div>
-          <div class="button">CE</div>
-          <div class="button">C</div>
-          <div class="button">&larr;</div>
-          <div class="button">1/x</div>
-          <div class="button">x^2</div>
-          <div class="button">2√x</div>
-          <div class="button">÷</div>
-          <div class="button">7</div>
-          <div class="button">8</div>
-          <div class="button">9</div>
-          <div class="button">x</div>
-          <div class="button">4</div>
-          <div class="button">5</div>
-          <div class="button">6</div>
-          <div class="button">-</div>
-          <div class="button">1</div>
-          <div class="button">2</div>
-          <div class="button">3</div>
-          <div class="button">+</div>
-          <div class="button">+/-</div>
-          <div class="button">0</div>
-          <div class="button">.</div>
-          <div class="button">=</div>
+          <div data-previous-operand class="previous-operand">Hello</div>
+          <div data-current-operand class="current-operand">There</div>
+        </div>
+        <div class="buttons">
+          <div data-all-clear class="button">C</div>
+          <div data-operation class="button">^</div>
+          <div data-operation class="button">hyp</div>
+          <div data-delete class="button">&larr;</div>
+          <div data-number class="button">7</div>
+          <div data-number class="button">8</div>
+          <div data-number class="button">9</div>
+          <div data-operation class="button">÷</div>
+          <div data-number class="button">4</div>
+          <div data-number class="button">5</div>
+          <div data-number class="button">6</div>
+          <div data-operation class="button">*</div>
+          <div data-number class="button">1</div>
+          <div data-number class="button">2</div>
+          <div data-number class="button">3</div>
+          <div data-operation class="button">-</div>
+          <div data-equals class="button" id="equal">=</div>
+          <div data-number class="button">0</div>
+          <div data-number class="button">.</div>
+          <div data-operation class="button">+</div>
         </div>
       </div>
     </section>
+    <footer class="footer">Aaron Thompson - The Odin Project</footer>
   </body>
   <script src="script.js"></script>
 </html>
